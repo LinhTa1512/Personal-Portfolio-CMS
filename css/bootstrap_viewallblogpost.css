@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chonburi&family=DM+Serif+Text&family=Roboto&display=swap');
+
+html,
+body {
+height: 100%;  
+background: linear-gradient(90deg, rgba(74,197,232,1) 0%, rgba(178,137,246,1) 100%);
+}
+
+/*Header*/
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {  
+  margin-bottom: 0; 
+  font-family: 'Chonburi', cursive;
+  font-size: 40px;
+  color: #fff;    
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-family: 'Roboto', sans-serif;        
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+
+.flex-auto {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+/*Search bar*/
+input {
+  border: 1px solid #4dc4e8;
+  font-size: 12px;
+  height: 30px;
+  padding: 4px 8px;
+  position: absolute;
+  width: 60%;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);      
+}
+input:focus {
+  outline: none;
+  border: 1px solid #b289f6;
+}
+
+button {
+  text-align: center;
+}
+button:focus {
+  outline: none;
+}
+button.btn-search, button.btn-reset {
+  background: #b289f6;
+  border: none;
+  height: 30px;
+  font-size: 12px;
+  padding: 4px;
+  position: absolute;
+  width: 30px;
+}
+
+.sample {
+  height: 50px;
+  margin: 0 8px; ;
+  position:relative;
+  width: 50%;
+}
+
+.sample.nine input {
+  border-radius: 15px;
+  transition: all .6s ease-in-out .3s;
+  width: 150px;
+}
+.sample.nine input:focus {
+  transition-delay: 0;
+  width: 300px;
+}
+.sample.nine input:focus ~ button {
+  transform: rotateZ(360deg);
+}
+.sample.nine input:focus ~ button.btn-search  {
+  background: #b289f6;
+  color: #fff;
+  left: 274px;
+  transition-delay: 0;
+}
+.sample.nine input:focus ~ button.btn-reset {
+  left: 277px;
+  transition-delay: .3s;
+}
+.sample.nine button {
+  transition: all .6s ease-in-out;
+}
+.sample.nine button.btn-search {
+  background: #4dc4e8;
+  border-radius: 50%;
+  height: 26px;
+  left: 123px;
+  top: 2px;
+  transition-delay: .3s;
+  width: 26px;
+}
+.sample.nine button.btn-reset{
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  font-size: 10px;
+  height: 20px;
+  left: 122px;
+  line-height: 20px;
+  padding: 0;
+  top: 5px;
+  width: 20px;
+  z-index: -1;
+}
+
+/*Portfolio posts*/
+.card-signin {
+  background-color: #fff;    
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-signin .card-title {
+  font-family: 'Chonburi', cursive;    
+  margin-bottom: 2rem;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.card-signin .card-body {
+  padding: 2rem;
+}
+
+.card-signin .card-text .card-time .card-content{
+    font-family: 'Roboto', sans-serif; 
+}
+
+.card-signin .card-time{
+    font-style: italic;
+    font-weight: 300;
+}
+
+.card-signin .btn{
+    background-color: #b289f6;
+    border-color: #b289f6;
+}
+
+.sectionHeader{
+    color: white;
+    letter-spacing: 5px;
+}
+
+.image {
+  object-fit: contain;
+  width: 100%;
+}
+
+.imageid{
+  object-fit: contain;
+  width: 100%;
+  height: 500px; 
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);  
+}
+
+
+.caption-2 figcaption {
+  width: 80%;
+  position: absolute;
+  bottom: 1rem;
+  left: 10%;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.card .card-media{
+    width: 2rem;
+}
+
+h2 {
+  color: black;
+  text-decoration: none;
+  background-color: transparent;
+}
+h2:hover {
+  color:  #b289f6;
+  text-decoration: underline;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.border-md {
+  border-width: 2px !important;
+}
+
+
+.text-small {
+  font-size: 0.85rem;
+}
+

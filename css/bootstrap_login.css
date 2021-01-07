@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Saira&family=Saira+Condensed&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Saira&family=Saira+Condensed&display=swap');
+
+body{ 
+background: linear-gradient(90deg, rgba(74,197,232,1) 0%, rgba(178,137,246,1) 100%);
+}
+
+.wrapper {
+  padding-top: 140px;
+  padding-bottom: 70px;    
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.form-signin {
+  max-width: 400px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  font-family: 'Saira', sans-serif; 
+}
+
+.form-signin .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin-heading{
+    color: #b289f6;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.form-signin-paragraph {
+    color: #4dc4e8;
+}
+
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.form-control{
+    border: 2px solid #b289f6;
+}
+
+.btn{ 
+color: white;
+background: rgb(178,137,246);
+background: linear-gradient(90deg, rgba(178,137,246,1) 0%, rgba(74,197,232,1) 100%);
+border: none;
+font-weight: bold;
+letter-spacing: 3px;    
+}
+
+
+

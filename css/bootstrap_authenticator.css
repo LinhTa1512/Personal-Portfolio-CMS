@@ -1,0 +1,39 @@
+body,html{
+    height:100%;
+    background: linear-gradient(90deg, rgba(74,197,232,1) 0%, rgba(178,137,246,1) 100%);
+}
+
+.bg{
+    background-color: white;
+    height: 100%;
+    background-position: center;
+}
+
+.form-control{
+    font-size: xx-large;
+    width: 200px;  
+    border-radius: 5px; 
+    text-align: center; 
+    display: inline;
+}
+
+.form-control:focus{
+    border-color: #4dc4e8;
+}
+
+.btn{
+width: 200px;
+border-radius: 5px;
+background-color: #b289f6;    
+border-color: #b289f6;    
+}
+
+.btn:hover{
+background-color: #4dc4e8;
+border-color:  #4dc4e8;    
+}
+
+.bt:focus{
+background-color: #4dc4e8;
+border-color:  #4dc4e8;       
+}
